@@ -1,0 +1,57 @@
+
+
+{
+    "intents":[
+
+
+        {
+            "tag":"Salutation",
+            "patterns":["bonjour", "salut", "heo", "hello", "hi", "coucou","comment vas-tu " ],
+            "responses":["salut je m'appelle talkBot je suis a votre service", "bonjour", " bonjour ravie de vous rencontrer ", " bonjour et Bienvennue", "hello je suis la pour vous", " bonjour  comment puis je etre utile ?", " merci bonjour a votre service"," salut heureux de communiquez avec vous ","salut que puis je faire pour vous ?"]
+        },
+
+
+        {
+            "tag":"Aurevoir",
+            "patterns":["aurevoir", "a bientot", "bye", "merci apres", "apres", "prochainement", "a demain", "a une autre fois","je suis partir","je me deconnecte","ce fut un plaisir"],
+            "responses":["merci a bientot", "d'accord prochainement", "a vous revoir tres vite", "compris bonne journee", "ce fut cool de parler  aurevoir", "revenez quand vous voulez", "a la prochaine merci", "oh daccord bye","content de vous avoir servit", "a votre service","je suis toujours la pour quoi que ce soit   merci encore"]
+        },
+        {
+            "tag":"Nom",
+            "patterns":["comment tu t'appelles", "votre nom ", "qui etes vous ?", "comment vous appellez vous ?", "parlez un peu de vous", "a qui je parle ?", "c est quoi votre nom ?","puis je faire votre connaissance ?"],
+            "responses":["je suis talkBot le robot", "je suis talkBot votre assistant", "TalkBot est mon nom", " je suis TalkBot", "je suis un jeunne Robot Parlant ", " moi je suis une intelligence artificielle au service des humains", "talkbot"]
+        },
+
+
+        {
+            "tag":"Discuss",
+            "patterns":["de quoi veux tu parler ?", " qu'est ce qui t'interesse ?", "tu aimes quoi ?", "quel sont tes activites ?",  "tu aimes faire quoi ?"],
+            "responses":["j aime parler du sport ", "la musique", "la cuisine est ma passion", "le jogging est bien tu sais !", "j aime coder", " la vente des accessoires telephoniques", "la livraion des colis", "je suis vendeur chez IBM"," l informatique", " l anglais"]
+        }
+        ,
+       {
+            "tag":"Shop",
+            "patterns":["avez vous des telephones ?", "bonjour que vendez vous ? ", "un Iphone 6 s'il vous plait", "ou trouver des appareils ?", "salut , que proposez vous ?", "quoi en vente ici ?", " des appareils electroniques ?"],
+            "responses":[" ici on vend des Gadgets electroniques", "des telephones ont en vente ici", "tout genre de telephones sont disponibles", " on propose une Gamme de produits electroniques","ici on vous vend des appareils a des pri abordables"]
+        },
+        {
+            "tag":"Price",
+            "patterns":["quel sont les prix ?", " les prix", "combien ca coutent les produits ?", "parlez de vos produits ?", "j'ai 480 dollars", "les prix des iphone"],
+            "responses":["les prix vont de 75 a 4000 dollars", "entre 75 et 4000 dollars", "de tres bon produits allant de 75 a 4000 dollarss"," le meilleur de la reduction , achetez entre 75 et 4000 dollars"]
+        }
+        ,
+        {
+            "tag":"Ordinateurs",
+            "patterns":[" c'est quoi un ordinateur ?" , "l'ordinateur est une machine ?", "donne la definition d'un ordinateur"],
+            "responses":["un ordinateur est un appareil electronique et programmable capable d'effectuer le traitement automatique de l'information"]
+
+        }
+        ,{
+            "tag":"Noanswer",
+            "patterns":["ghkghkg ","blbl","blablabla","dsfsdwer","dfelkjl","qanmvcd","pwopihj"],
+            "responses":["je ne comprends pas", "veuillez reformuler","reprennez je n'ai pas suivi"]
+        }
+
+    ]
+}
+
